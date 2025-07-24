@@ -24,7 +24,8 @@ const skills = [
 const Skills = () => {
   return (
     <section className="bg-[#0f0f11] text-white px-6 md:px-20 py-20" id="skills">
-      <div className="text-center mb-12">
+      <main className="max-w-[1440px] mx-auto">
+        <div className="text-center mb-12">
         <button className="px-4 py-1 text-sm bg-gray-800 rounded-full mb-4 cursor-default">
           Skills
         </button>
@@ -39,6 +40,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
+      </main>
     </section>
   );
 };

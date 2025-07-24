@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed w-full z-50 bg-[#0f0f11] text-white shadow-md">
-      <div className="flex items-center justify-between px-6 md:px-20 py-4">
+      <div className="flex items-center justify-between px-6 md:px-20 py-4 max-w-[1440px] mx-auto">
         <div className="text-2xl font-bold tracking-wide">OJEH<span className="text-blue-400">OM</span>ON</div>
 
         {/* Desktop Menu */}

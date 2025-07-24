@@ -3,8 +3,8 @@ const projects = [
     title: "My Portfolio Website",
     description: "A responsive personal portfolio built with React and Tailwind CSS. It showcases my skills, projects, and contact info.",
     image: "/project1.png", // Place this image in your /public folder
-    liveLink: "https://your-portfolio-url.com",
-    githubLink: "https://github.com/your-username/portfolio",
+    liveLink: "https://ojes-portfolio-i3lc.vercel.app/",
+    githubLink: "https://github.com/Ojele45/OjesPortfolio.git",
   },
   {
     title: "Todo App",
@@ -18,7 +18,8 @@ const projects = [
 const Projects = () => {
   return (
     <section className="bg-[#1f2937] text-white px-6 md:px-20 py-20" id="projects">
-      <div className="text-center mb-12">
+     <main className="max-w-[1440px] mx-auto">
+       <div className="text-center mb-12">
         <button className="px-4 py-1 text-sm bg-[#4b5563] rounded-full mb-4 cursor-default">
           Projects
         </button>
@@ -59,6 +60,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+     </main>
     </section>
   );
 };
